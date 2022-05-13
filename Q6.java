@@ -18,6 +18,7 @@ public class Q6 {
             System.out.print("Enter number : ");
             arr[i] = sc.nextInt();
         }
+        sc.close();
         int odd = 0, even = 0;
         for (int i = 0; i < 20; i++) {
             if (isOdd(arr[i])) {

@@ -17,7 +17,7 @@ public class Q4 {
     public static int getSmallest (int[] arr) {
         int b, smallest = arr[0]; // assume the first element is smallest
         for (b = 0; b < arr.length; b++) {
-            if (arr[b] <= smallest)
+            if (arr[b] < smallest)
             smallest = arr[b];
         }
         return smallest;
