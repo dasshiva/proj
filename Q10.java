@@ -24,6 +24,7 @@ public class Q10 {
 			System.out.println("Special 2-digit number");
 		else
 			System.out.println("Not a special 2-digit number");
+			sc.close();
 	}
 }
 
