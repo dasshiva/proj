@@ -1,3 +1,9 @@
+/* If arrays M and M + N are as shown below, write a program in Java to find
+the array N.
+M = {{-1, 0, 2}, M + N = {{-6, 9, 4},
+{-3, -1, 6}, {4, 5, 0},
+{4, 3, -1}} {1, -2, -3}} */
+
 public class Q30 {
     public static void main(String[] args) {
         int[][] m = {{-1, 0, 2}, {-3, -1, 6}, {4, 3, -1}};
